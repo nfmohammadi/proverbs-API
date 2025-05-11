@@ -81,6 +81,7 @@ data-type: json
         "meaning": "Example4",
         "category": "Example4"
     }
+```
 
  **Response**
  ```bash
