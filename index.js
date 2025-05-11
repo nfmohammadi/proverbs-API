@@ -38,8 +38,13 @@ app.post('/proverbs',(req,res)=>{
     const newproverbId = data.length > 0 ? Math.max(...data.map(p => p.id)) + 1 : 1;
     newProverb.id = newproverbId;
     data.push(newProverb);
+    try {
     fs.writeFileSync('proverbs.json', JSON.stringify(data, null, 4));
-    res.send("Proverb added successfully!");
+    res.send("Proverb added successfully✅");
+    } catch (err) {
+        console.error(err);
+        res.status(500).send("Failed to save proverb.");
+    }
 });
 
 app.put('/proverbs/:id', (req,res)=>{
