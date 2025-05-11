@@ -23,9 +23,11 @@ You can interact with the API by sending requests to the following endpoints:
    cd proverbs-API
 
 2. Install dependencies:
+   ```bash
    npm install
 
 3. Run the API:
+   ```bash
    node index.js
 
 By default, the API runs on http://localhost:3000 .
