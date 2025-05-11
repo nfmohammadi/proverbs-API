@@ -37,7 +37,9 @@ By default, the API runs on http://localhost:3000 .
 **Request:**
 ```bash
 GET /proverbs
-**Response**
+```
+
+**Response:**
 ```bash
 [
     {
@@ -65,6 +67,7 @@ GET /proverbs
         "category": "Example"
     }
 ]
+```
 
 ### Add a new proverb
 **Request**
@@ -90,6 +93,7 @@ data-type: json
         "category": "Example",
         "id": 4
     }
+```    
 
 
 
