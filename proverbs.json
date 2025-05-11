@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "textDari": "مثال",
+        "textPashto": "مثال",
+        "translation": "Example",
+        "meaning": "Example",
+        "category": "Example"
+    },
+    {
+        "id": 2,
+        "textDari": "مثال",
+        "textPashto": "مثال",
+        "translation": "Example",
+        "meaning": "Example",
+        "category": "Example"
+    },
+    {
+        "id": 3,
+        "textDari": "مثال",
+        "textPashto": "مثال",
+        "translation": "Example3",
+        "meaning": "Example",
+        "category": "Example"
+    }
+]
