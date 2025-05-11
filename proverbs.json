@@ -22,5 +22,13 @@
         "translation": "Example3",
         "meaning": "Example",
         "category": "Example"
+    },
+    {
+        "textDari": "4مثال",
+        "textPashto": "4مثال",
+        "translation": "Example4",
+        "meaning": "Example4",
+        "category": "Example",
+        "id": 4
     }
 ]
