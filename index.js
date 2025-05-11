@@ -62,7 +62,7 @@ app.delete('/proverbs/:id', (req,res)=>{
     res.json({ message: 'Proverb deleted successfully✅'})
 });
 
-app.get('/proverb/random', (req,res)=>{
+app.get('/proverbs/random', (req,res)=>{
     const randomIndex = Math.floor(Math.random() * data.length);
     const randomProverb = data[randomIndex];
     res.json(randomProverb)
