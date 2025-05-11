@@ -17,6 +17,12 @@ app.get('/proverbs', (req,res)=>{
     res.json(proverbs);
 });
 
+app.get('/proverbs/random', (req,res)=>{
+    const randomIndex = Math.floor(Math.random() * data.length);
+    const randomProverb = data[randomIndex];
+    res.json(randomProverb)
+});
+
 app.get('/proverbs/:id', (req,res)=>{
     const proverbs = readData();
     const id = parseInt(req.params.id);
@@ -62,11 +68,7 @@ app.delete('/proverbs/:id', (req,res)=>{
     res.json({ message: 'Proverb deleted successfully✅'})
 });
 
-app.get('/proverbs/random', (req,res)=>{
-    const randomIndex = Math.floor(Math.random() * data.length);
-    const randomProverb = data[randomIndex];
-    res.json(randomProverb)
-});
+
 
 app.listen(PORT, ()=>{
     console.log("Server is running");
