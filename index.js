@@ -1,6 +1,7 @@
 import { error } from 'console';
 import express from 'express';
 import fs from 'fs';
+import axios from 'axios';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -73,8 +74,40 @@ app.delete('/proverbs/:id', (req,res)=>{
     res.json({ message: 'Proverb deleted successfully✅'})
 });
 
+// function to merge local and remote data
+const mergeData = (localData, remoteData) => {
+    const mergedData = [...localData];
+
+    remoteData.forEach(remoteProverb => {
+        const index = localData.findIndex(localProverb =>
+            localProverb.id === remoteProverb.id);
+        if (index === -1) {
+            mergedData.push(remoteProverb);
+        } else {
+            mergedData(index) = { ...localData[index], ...remoteProverb };
+        }   
+    });
+    return mergedData;
+};
+
+// synchronization function
+const syncData = async () => {
+    try {
+        const response = await axios.get('https://proverbs-api-4ukw.onrender.com/proverbs');
+        const remoteData = response.data;
+        const localData = readData();
+        const mergedData = mergeData(localData, remoteData);
+
+        writeData(mergedData);
+        console.log('Local JSON file updated and merged successfully.');
+    } catch (error) {
+        console.error('Error synchronizing data:', error);
+    }
+};
 
 
-app.listen(PORT, ()=>{
+
+app.listen(PORT, async ()=>{
     console.log("Server is running");
+    await syncData();
 })
