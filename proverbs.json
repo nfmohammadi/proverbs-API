@@ -30,5 +30,13 @@
         "meaning": "Example4",
         "category": "Example",
         "id": 4
+    },
+    {
+        "textDari": "new proverb",
+        "textPashto": "new proverb",
+        "translation": "example",
+        "meaning": "example",
+        "category": "example",
+        "id": 5
     }
 ]
