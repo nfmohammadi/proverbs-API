@@ -84,7 +84,7 @@ const mergeData = (localData, remoteData) => {
         if (index === -1) {
             mergedData.push(remoteProverb);
         } else {
-            mergedData(index) = { ...localData[index], ...remoteProverb };
+            mergedData[index] = { ...localData[index], ...remoteProverb };
         }   
     });
     return mergedData;
