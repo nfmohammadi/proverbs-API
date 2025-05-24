@@ -1,42 +1,138 @@
 [
     {
-        "id": 1,
-        "textDari": "مثال",
-        "textPashto": "مثال",
-        "translation": "Example",
-        "meaning": "Example",
-        "category": "Example"
+        "id": 1 ,
+        "textDari": "از دست یک شوم، سوخت شهر روم",
+        "textPashto":"د یوې بدې له لاسه، د روم ښار وسوځېد" ,
+        "translationEn": "Because of one bad person, the whole city of Rome burned.",
+        "meaning": "This proverb warns that the actions of a single malicious individual can lead to widespread destruction or suffering. It highlights the danger of allowing harmful people to influence a community." ,
+        "category": "Morality"
     },
     {
-        "id": 2,
-        "textDari": "مثال",
-        "textPashto": "مثال",
-        "translation": "Example",
-        "meaning": "Example",
-        "category": "Example"
+        "id": 2 ,
+        "textDari": "دل به دل راه دارد",
+        "textPashto":"له زړه نه بل زړه ته لار شته" ,
+        "translationEn": "The heart has a path to another heart.",
+        "meaning": "This proverb expresses the idea that emotions, feelings, and connections between people transcend physical distance. It suggests that when two people share a deep bond, they can understand each other without words." ,
+        "category": "Wisdom"
     },
     {
-        "id": 3,
-        "textDari": "مثال",
-        "textPashto": "مثال",
-        "translation": "Example3",
-        "meaning": "Example",
-        "category": "Example"
+        "id": 3 ,
+        "textDari": "هیچ پیشکی (گربه) به خاطر رضای خدا موش نمی گیرد",
+        "textPashto":"هیڅ پیشو د خدای د رضا لپاره موږک نه نیسي" ,
+        "translationEn": "No cat catches a mouse for the sake of God.",
+        "meaning": "This proverb suggests that people rarely do things out of pure goodwill; there is often a hidden motive or personal benefit behind their actions." ,
+        "category": "Morality"
     },
     {
-        "textDari": "4مثال",
-        "textPashto": "4مثال",
-        "translation": "Example4",
-        "meaning": "Example4",
-        "category": "Example",
-        "id": 4
+        "id": 4 ,
+        "textDari": "باد آورده را باد می برد",
+        "textPashto":"باد راوړی، باد هم وړي" ,
+        "translationEn": "What the wind brings, the wind takes away.",
+        "meaning": "This proverb means that things gained easily or without effort can be lost just as easily; it emphasizes the transient nature of fortune." ,
+        "category": "Wisdom"
     },
     {
-        "textDari": "new proverb",
-        "textPashto": "new proverb",
-        "translation": "example",
-        "meaning": "example",
-        "category": "example",
-        "id": 5
+        "id": 5 ,
+        "textDari": "تا احمق در جهان است، مفلس در نمی ماند",
+        "textPashto":"تر هغه چې نادان په دنیا کې وي، بې وزله نه پاتیږي" ,
+        "translationEn": "As long as there is a fool in the world, the swindler will not remain poor.",
+        "meaning": "This proverb highlights how cunning people (swindlers) exploit the naive (fools) to enrich themselves. It suggests that as long as gullible people exist, deceitful individuals will always find ways to profit." ,
+        "category": ["Humor", "Social"]
+    },
+    {
+        "id": 6 ,
+        "textDari": "چیزی را که به خود نمی پسندی، به دیگران نیز مپسند",
+        "textPashto":"هغه څه چې ته یې خپل ځان نه خوښوې، بل چا ته یې هم مه خوښوه" ,
+        "translationEn": "Do not wish for others what you do not wish for yourself.",
+        "meaning": "This proverb teaches the Golden Rule—treat others as you would like to be treated. It emphasizes empathy, fairness, and kindness, discouraging hypocrisy and selfishness." ,
+        "category": ["Morality", "Ethics"]
+    },
+    {
+        "id": 7 ,
+        "textDari": "دنیا با امید زنده است",
+        "textPashto":"نړۍ د هیله سره ژوندۍ ده" ,
+        "translationEn": "The world lives on hope.",
+        "meaning": "This proverb emphasizes that hope is what keeps humanity going. No matter how difficult life becomes, people endure because they believe in a better future. It reflects the universal human reliance on optimism and faith in tomorrow." ,
+        "category": "Aspiration"
+    },
+    {
+        "id": 8 ,
+        "textDari": "دل تنگ نباشد، جای تنگ نیست",
+        "textPashto":"که زړه تنګ نه وي، ځای تنګ نه دی" ,
+        "translationEn": "If the heart is not narrow, the place is not tight.",
+        "meaning": "This profound proverb teaches that physical limitations don't matter when one has an open and generous spirit." ,
+        "category": ["Morality", "Wisdom"]
+    },
+    {
+        "id": 9 ,
+        "textDari": "سالی که نیکوست از بهارش پیداست",
+        "textPashto":"کاله چې ښه وي د پسرلي په څرګندېږي" ,
+        "translationEn": "A good year is evident from its spring.",
+        "meaning": "This proverb suggests that the beginning of something often indicates how the rest will unfold. Just as a vibrant, flourishing spring usually leads to a bountiful year, the early signs of any endeavor can foreshadow its ultimate outcome." ,
+        "category": "Wisdom"
+    },
+    {
+        "id": 10 ,
+        "textDari": "نان و پیاز پیشانی باز",
+        "textPashto":"ډوډۍ او پیاز، په مخ خلاص" ,
+        "translationEn": "Bread and onions, with an open forehead (face).",
+        "meaning": "This proverb conveys the idea of contentment with simple things in life. It suggests that even a humble meal of bread and onions can be satisfying if one has dignity and self-respect (open forehead symbolizes honesty and pride)." ,
+        "category": "Wisdom"
+    },
+    {
+        "id": 11 ,
+        "textDari": " چیزی که عیان است چه حاجت به بیان است",
+        "textPashto":"څه چې څرګند دي، بیا بیان ته اړتیا نه ده" ,
+        "translationEn": "Why state what is already obvious?",
+        "meaning": "This proverb implies that there is no need to explain or elaborate on something that is already clear or obvious." ,
+        "category": "Wisdom"
+    },
+    {
+        "id": 12 ,
+        "textDari": " خربوزه از خربوزه رنگ ميگيرد و انسان از انسان پند",
+        "textPashto":"خربوزه له خربوزې رنګ اخلي، او انسان له انسان څخه پند اخلي" ,
+        "translationEn": "A melon takes its color from another melon, and a person takes wisdom from another person.",
+        "meaning": "This proverb highlights the power of influence and learning through association. It suggests that individuals learn behaviors and traits from those around them." ,
+        "category": "Wisdom"
+    },
+    {
+        "id": 13 ,
+        "textDari": " مزن به دروازه‌‌ٔ کسی به انگشت تا نزند به درت به مشت",
+        "textPashto":"په چا ور باندې په ګوته مه وهه، چې په ستا ور باندې په ټوپکه وه نه شي" ,
+        "translationEn": "Do not knock on someone else’s door with a finger, lest they knock on yours with a fist.",
+        "meaning": "This proverb warns against provoking others or disrespecting boundaries, as the retaliation may be harsher than the original action." ,
+        "category": "Wisdom"
+    },
+    {
+        "id": 14 ,
+        "textDari": " خودت گل باشی و عمرت نی",
+        "textPashto":"خپله ګل وې، خو عمر دې گل نه وي" ,
+        "translationEn": "Flourish like a flower, but may your life be longer.",
+        "meaning": "A poetic blessing wishing someone both vibrancy and longevity." ,
+        "category": ["Aspiration", "Hope"]
+    },
+    {
+        "id": 15 ,
+        "textDari": "شیرِ خانه، روباهِ بیرون",
+        "textPashto":"په کور کی زمری، دباندی ګیدړ" ,
+        "translationEn": "A lion at home, a fox outside.",
+        "meaning": "This proverb is referred to someone who is bold and dominant with family but timid and cunning in the outside world." ,
+        "category": "Critique"
+    },
+    {
+        "id": 16 ,
+        "textDari": "آب ناخواسته مراد است",
+        "textPashto":"نا غوښتل شوی اوبۍ مراد دی" ,
+        "translationEn": "Unasked-for water is a blessing.",
+        "meaning": "This proverb conveys that sometimes, unexpected or unrequested things can turn out to be beneficial or valuable, encouraging openness to unforeseen circumstances." ,
+        "category": "Wisdom"
+    },
+    {
+        "id": 17 ,
+        "textDari": "آفتاب به دو انگشت پنهان نمی شود",
+        "textPashto":"لمر د دوه ګوتو په واسطه پټېږي نه" ,
+        "translationEn": "The sun cannot be hidden with two fingers.",
+        "meaning": "This proverb conveys that truth or obvious facts cannot be concealed, no matter how hard one tries." ,
+        "category": "Wisdom"
     }
 ]
