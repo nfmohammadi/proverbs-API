@@ -2,7 +2,7 @@
 ## Description
 This project is a RESTful API that stores and manages proverbs in Dari, Pashto, and their English translations. It allows users to retrieve, add, edit, and delete proverbs.
 The Proverbs API is live and can be accessed on here: 
-🔗 https://proverbs-api-4ukw.onrender.com
+🔗 https://proverbs-api-4ukw.onrender.com/proverbs
 
 ## Features & Endpoints
 You can interact with the API by sending requests to the following endpoints:
